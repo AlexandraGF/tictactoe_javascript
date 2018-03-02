@@ -6,7 +6,7 @@ describe('TicTacToe', function (){
       player2 = new Player('Dan')
       game = new TicTacToe(player1, player2);
       game.turn('x', 0);
-      expect(game.tic_array[0]).toEqual('x');
+      expect(game.ticArray[0]).toEqual('x');
     });
 
   });
