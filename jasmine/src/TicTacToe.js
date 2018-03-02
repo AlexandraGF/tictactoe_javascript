@@ -5,5 +5,5 @@ var TicTacToe = function (player1, player2){
 };
 
 TicTacToe.prototype.turn = function (option, position) {
-
+  this.ticArray[position] = option
 };
